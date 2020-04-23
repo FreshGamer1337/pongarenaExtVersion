@@ -1,4 +1,6 @@
-
+var socket;
+//connected auf den server
+socket = io.connect("http://localhost:3000");
 
 //Nimmt unser hintergrund mit der genannten ID
 var hintergrund = document.getElementById("Rasen");
